@@ -1,9 +1,11 @@
 import React from "react";
 import "./Header.css";
 
+// Khai báo một thành phần React
 const Header = () => {
   return (
     <header>
+      {/* navbar chính */}
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <i
@@ -11,6 +13,7 @@ const Header = () => {
             style={{ marginBottom: "1%" }}
           ></i>
 
+           {/* Nút toggle trên màn hình nhỏ  */}
           <button
             className="navbar-toggler"
             style={{ border: "none" }}
@@ -24,7 +27,7 @@ const Header = () => {
             <i className="bi bi-list text-light"></i>
           </button>
 
-          {/* Thanh tìm kiếm cho màn hình nhỏ */}
+          {/* Thanh tìm kiếm trên màn hình nhỏ */}
           <div className="input-group d-flex me-auto ms-1 d-lg-none">
             <span className="input-group-text" id="basic-addon1">
               <i className="bi bi-search"></i>
@@ -50,7 +53,7 @@ const Header = () => {
             id="navbarTogglerDemo01"
           ></div>
 
-          {/* Logo cho màn hình lớn */}
+          {/* Logo TIKI cho màn hình lớn */}
           <a className="navbar-brand d-lg-flex d-none ms-4 me-4" href="/">
             <img
               src={require("../../images/logo.png")}
@@ -77,7 +80,8 @@ const Header = () => {
           </div>
 
           {/* Navigation link cho màn hình lớn */}
-          <div className="navbar-nav d-lg-flex d-none me-5">
+          <div className="navbar-nav d-lg-flex d-none me-5"> {/* Các liên kết điều hướng chỉ hiển thị trên màn hình lớn. */}
+          {/* bi-house, bi-emoji-smile, bi-cart: Các biểu tượng tương ứng với Trang chủ, Tài khoản, và Giỏ hàng. */}
             <a className="nav-link me-2" href="/">
               <i className="bi bi-house fs-5 me-1"></i>Trang chủ
             </a>
