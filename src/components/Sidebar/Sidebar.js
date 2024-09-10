@@ -102,17 +102,17 @@ const Sidebar = ({ onFilterChange }) => {
                 <ul className="list-unstyled rating">
                     <li>
                         <button className="btn btn-link" onClick={() => handleRatingChange(5)}>
-                            <i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i> tu 5 sao
+                            <i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i> từ 5 sao
                         </button>
                     </li>
                     <li>
                         <button className="btn btn-link" onClick={() => handleRatingChange(4)}>
-                            <i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-muted"></i> tu 4 sao
+                            <i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-muted"></i> từ 4 sao
                         </button>
                     </li>
                     <li>
                         <button className="btn btn-link" onClick={() => handleRatingChange(3)}>
-                            <i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-muted"></i><i className="fa fa-star text-muted"></i> tu 3 sao
+                            <i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-warning"></i><i className="fa fa-star text-muted"></i><i className="fa fa-star text-muted"></i> từ 3 sao
                         </button>
                     </li>
                 </ul>

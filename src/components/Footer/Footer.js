@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
 
                         <div className="row">
-                            <h5>Chung nhan boi</h5>
+                            <h5>Chứng nhận bởi</h5>
                             <img src={require('../../images/chungnhan.png')} className="img-fluid" alt="Chứng nhận Bộ Công Thương" />
                         </div>
 
